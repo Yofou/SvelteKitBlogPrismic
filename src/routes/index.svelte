@@ -1,2 +1,8 @@
-<h1 class="bg-gray-400">Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script lang="ts">
+	import  * as prismicH from "@prismicio/helpers";
+	import type { PrismicDocument } from "@prismicio/types"
+	export let result: PrismicDocument<Record<string, any>, string, string> 
+</script>
+
+{@html prismicH.asText(result.data.title)}
+{@html prismicH.asHTML(result.data.content)}

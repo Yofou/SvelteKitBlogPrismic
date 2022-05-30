@@ -13,6 +13,9 @@
 		"format": "prettier --write --plugin-search-dir=. ."
 	},
 	"devDependencies": {
+		"@prismicio/client": "^6.5.0",
+		"@prismicio/helpers": "^2.3.0",
+		"@prismicio/types": "^0.1.27",
 		"@sveltejs/adapter-auto": "next",
 		"@sveltejs/kit": "next",
 		"@types/tailwindcss": "^3.0.10",
@@ -22,6 +25,7 @@
 		"eslint": "^8.12.0",
 		"eslint-config-prettier": "^8.3.0",
 		"eslint-plugin-svelte3": "^4.0.0",
+		"node-fetch": "^3.2.4",
 		"postcss": "^8.4.14",
 		"prettier": "^2.5.1",
 		"prettier-plugin-svelte": "^2.5.0",
